@@ -9,6 +9,8 @@ name_hash.each do |key, value|
   if lowest_price == 0 || value < lowest_price
     lowest_price = value
     lowest_key = key
-    
+  end
+end
+
 
 end
